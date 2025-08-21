@@ -9,22 +9,30 @@ export default function Footer() {
             <span className="font-semibold text-[28px] text-[#F25417]">GridSpace</span>
           </div>
           <nav className="flex flex-wrap justify-center gap-x-6 gap-y-3 text-center text-sm text-slate-600 md:text-left">
-            <a href="#about" className="hover:text-slate-900">
+            <a href="#about" className="text-[#002F5B] hover:text-slate-900">
               About
             </a>
-            <a href="#contact" className="hover:text-slate-900">
+            <a href="#contact" className="text-[#002F5B] hover:text-slate-900">
               Contact
             </a>
-            <a href="#terms" className="hover:text-slate-900">
+            <a href="#terms" className="text-[#002F5B] hover:text-slate-900">
               Terms
             </a>
-            <a href="#investors" className="hover:text-slate-900">
+            <a href="#investors" className="text-[#002F5B] hover:text-slate-900">
               Investors and Partners
             </a>
           </nav>
         </div>
-        <div className="mt-10 border-t border-slate-200 pt-6 text-center text-xs text-slate-500 md:text-left">
-          <p>Copyright © 2025, GridSpace. All rights reserved.</p>
+        <div className=" flex flex-col items-center md:flex-row md:justify-between mt-10 border-t border-slate-200 pt-6 text-center text-xs text-slate-500 md:text-left">
+          <p className="font-bold text-[#002F5B]">Copyright © 2025, GridSpace. All rights reserved.</p>
+          <div className="mt-2 flex justify-center gap-4 md:justify-start">
+            <a href="#privacy" className="hover:text-slate-700">
+              Privacy Policy
+            </a>
+            <a href="#tos" className="hover:text-slate-700">
+              Terms of Service
+            </a>
+          </div>
         </div>
       </div>
     </footer>
