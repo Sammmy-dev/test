@@ -20,7 +20,7 @@ function App() {
             <p className=" leading-[100%] text-3xl font-extrabold text-[#F25417] sm:text-[64px]">
               With Gridspace
             </p>
-            <p className="mx-auto mt-4 max-md:text-sm text-[24px] text-slate-300">
+            <p className="mx-auto mt-4 max-md:text-sm text-[24px] text-white">
               One platform. Three ways to connect with opportunities.
             </p>
           </div>
