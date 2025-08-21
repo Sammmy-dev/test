@@ -23,10 +23,10 @@ export default function Card({
     <div
       className={`rounded-[12px] border border-slate-200 bg-white p-6 shadow-sm`}
     >
-      <div className={`mx-auto mb-4 flex h-16 w-16 items-center justify-center rounded-md ${className}`}>
+      <div className={`mx-auto mb-8 flex h-16 w-16 items-center justify-center rounded-md ${className}`}>
         {icon}
       </div>
-      <div className="flex flex-col justify-center gap-[32px]">
+      <div className="flex flex-col justify-center gap-[5px]">
          <h3 className="mb-2 text-center text-[24px] font-semibold text-[#002F5B]">
         {title}
       </h3>
